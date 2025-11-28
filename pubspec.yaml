@@ -1,0 +1,26 @@
+name: loan_calculator_web
+description: "台灣貸款試算工具 - 支援多筆提前償還、圖表分析"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 圖表套件
+  fl_chart: ^0.69.0
+
+  # 日期格式化
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
